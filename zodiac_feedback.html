@@ -1,0 +1,11 @@
+<link rel="stylesheet" type="text/css" href="ChinaStyle.css" />
+
+<h1>Feedback</h1>
+<h3>Tell us how you felt!</h3>
+<p>Please enter your name, a message you would like to leave us, and select whether you want this message to be public or not.</p>
+<form method="POST" action="process_zodiac_feedback.php">
+    <p>Name: <input type="text" name="name" required></p>
+    <p>Message: <br><textarea name="message" rows="4" cols="50" required></textarea></p>
+    <p>Public: <input type="checkbox" name="public" value="Y"></p>
+    <input type="submit">
+</form>

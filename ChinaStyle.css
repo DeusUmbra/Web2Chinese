@@ -1,0 +1,42 @@
+body {
+    background-image: url(Images/Background.jpg);
+    font-size: large;
+}
+div.flex{
+    display: flex;
+}
+div.button {
+    flex: 1;
+}
+img.header {
+    opacity: 0.75;
+    width: 100%;
+    border-radius: 10px;
+}
+div.dynamic {
+    background: rgba(255, 215, 0, 0.5);
+    border-radius: 10px;
+    flex: 3;
+}
+div.blank {
+    flex: 1;
+}
+footer {
+    height: 10px;
+    margin-top: 50px;
+    width: 99%;
+}
+div.footer {
+    width: 500px;
+    background: rgba(255, 215, 0, 0.5);
+    border-radius: 10px;
+}
+table.zodiac {
+    background: rgba(255, 215, 0, 0.5);
+}
+th, td {
+    border: 1px solid black;
+}
+td.foot {
+    border: none;
+}
